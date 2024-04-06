@@ -14,6 +14,6 @@ Install webhook-utilities with git clone.
     
 Install webhook-utilities on windows:
 
-    1. Download the repository as zip.
+    1. Download the repository as zip
     2. Extract it
     3. Launch start.bat
