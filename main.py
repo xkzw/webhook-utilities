@@ -53,8 +53,8 @@ def webhook_spam():
     # Define the message payload
     message_payload = {
         'content': input("("+user+"@"+hostname+")-[~/webhook-spammer/message_content]""$> "),
-        'username': input("("+user+"@"+hostname+")-[~/webhook-spammer/username]""$> "),  # Set the username
-        'avatar_url': input("("+user+"@"+hostname+")-[~/webhook-spammer/avatar_url]""$> ")  # Set the avatar URL
+        'username': input("("+user+"@"+hostname+")-[~/webhook-spammer/username]""$> "),
+        'avatar_url': input("("+user+"@"+hostname+")-[~/webhook-spammer/avatar_url]""$> ")
     }
 
     # Get the number of messages to send
