@@ -20,7 +20,7 @@ $$ |       $$  _/
 $$$$$$$$\ $$$$$$$$\ 
 \________|\________|
     
- Created by lv8""")
+  Created by 2z""")
 
     print("""\n[1] Webhook spammer
 [2] Webhook deleter\n""")
