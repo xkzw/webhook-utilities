@@ -16,4 +16,4 @@ Install webhook-utilities on windows:
 
     1. Download the repository as zip.
     2. Extract it
-    3. Launch main.py using "python main.py"
+    3. Launch start.bat
