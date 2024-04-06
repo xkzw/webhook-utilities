@@ -25,7 +25,7 @@ $$$$$$$$\ $$$$$$$$\
     print("""\n[1] Webhook spammer
 [2] Webhook deleter\n""")
 
-    selection = input("("+user+"@"+hostname+")-[~]$> ")
+    selection = input("("+"2z"+"@"+hostname+")-[~]$> ")
 
     if selection == "1":
         webhook_spam()
