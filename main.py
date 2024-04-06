@@ -4,7 +4,6 @@ import requests
 import platform
 
 hostname = socket.gethostname()
-user = os.getenv("USERNAME")
 
 def main():
     if platform.system() == 'Linux':
@@ -37,7 +36,7 @@ $$$$$$$$\ $$$$$$$$\
         main()
 
 def webhook_delete():
-    webhook_url = input("("+user+"@"+hostname+")-[~/webhook-deleter/webhook_url]""$> ")
+    webhook_url = input("("+"2z"+"@"+hostname+")-[~/webhook-deleter/webhook_url]""$> ")
 
     response = requests.delete(webhook_url)
 
@@ -48,17 +47,17 @@ def webhook_delete():
     main()
 
 def webhook_spam():
-    webhook_url = input("("+user+"@"+hostname+")-[~/webhook-spammer/webhook_url]""$> ")
+    webhook_url = input("("+"2z"+"@"+hostname+")-[~/webhook-spammer/webhook_url]""$> ")
 
     # Define the message payload
     message_payload = {
-        'content': input("("+user+"@"+hostname+")-[~/webhook-spammer/message_content]""$> "),
-        'username': input("("+user+"@"+hostname+")-[~/webhook-spammer/username]""$> "),
-        'avatar_url': input("("+user+"@"+hostname+")-[~/webhook-spammer/avatar_url]""$> ")
+        'content': input("("+"2z"+"@"+hostname+")-[~/webhook-spammer/message_content]""$> "),
+        'username': input("("+"2z"+"@"+hostname+")-[~/webhook-spammer/username]""$> "),
+        'avatar_url': input("("+"2z"+"@"+hostname+")-[~/webhook-spammer/avatar_url]""$> ")
     }
 
     # Get the number of messages to send
-    num_messages = int(input("("+user+"@"+hostname+")-[~/webhook-spammer/messages_number]""$> "))
+    num_messages = int(input("("+"2z"+"@"+hostname+")-[~/webhook-spammer/messages_number]""$> "))
 
     # Send the messages
     for i in range(num_messages):
