@@ -4,7 +4,7 @@ import requests
 import platform
 
 hostname = socket.gethostname()
-user = os.getusername()
+user = os.getenv("USERNAME")
 
 def main():
     if platform.system() == 'Linux':
