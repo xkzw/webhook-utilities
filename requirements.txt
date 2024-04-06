@@ -50,7 +50,7 @@ pycryptodome==3.17
 pycryptodomex==3.20.0
 pyfiglet==0.8.post1
 Pygments==2.17.2
-pyinstaller @ file:///C:/Users/lv8/Downloads/empyrean-main/build/pyinstaller-5.1
+pyinstaller
 pyinstaller-hooks-contrib==2024.1
 pyobf2==1.2.0
 pypiwin32==223
