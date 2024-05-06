@@ -17,5 +17,4 @@ Install webhook-utilities on windows:
 
     1. Download the repository as zip
     2. Extract it
-    4. Execute "pip install -r requirements.txt" from terminal
-    3. Launch start.bat
+    4. Launch start.bat
