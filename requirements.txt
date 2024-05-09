@@ -1,1 +1,2 @@
+pystyle==2.9
 Requests==2.31.0
